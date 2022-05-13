@@ -1,0 +1,35 @@
+footer {
+
+    background: #212529;
+    height: 100px;
+    width: 100%;
+    color: #eeeff1;
+    display: flex;
+    align-items: center;
+  }
+  .footeClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .rights > p {
+    font-size: 13px;
+  }
+  .rights > h4 {
+    font-size: 15px;
+  }
+  .rights > p {
+    font-size: 9px;
+  }
+  
+  .socialMedia > a > img {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+  }

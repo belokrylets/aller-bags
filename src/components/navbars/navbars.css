@@ -1,0 +1,11 @@
+.navbars > nav {
+    height: 80px;
+    border-bottom: 3px solid #d2691e;
+}
+.phone {
+    color: black;
+text-decoration: none;
+}
+.phone:hover {
+    color: #6c757d;  
+}

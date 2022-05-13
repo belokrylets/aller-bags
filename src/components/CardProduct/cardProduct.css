@@ -1,0 +1,45 @@
+.cardProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  height: 400px;
+  width: 300px;
+  border: 1px solid rgb(221, 217, 217);
+}
+.cardProduct:hover {
+  background: rgba(199, 196, 196, 0.2);
+}
+.cardProduct img {
+  height: 50%;
+}
+
+.cardProduct button {
+  height: 50px;
+  width: 200px;
+  color: aliceblue;
+  background: #d2691e;
+  border: none;
+}
+
+.cardProduct button:hover {
+  background: #ac6735;
+}
+
+.productDiscreption {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.producName,
+.priceBag {
+  margin: 0;
+  text-align: center;
+}
+
+.priceBag {
+  color: #d2691e;
+}

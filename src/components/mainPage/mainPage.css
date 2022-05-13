@@ -1,0 +1,22 @@
+.mainPage {
+    position: relative;
+  background: url("../../media/images/background.jpg") no-repeat;
+  background-size: 100%;
+  height: 800px;
+}
+.header {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+}
+.header > button {
+    height: 50px;
+    width: 200px;
+    color: aliceblue;
+background: #d2691e;
+border: none;
+}
+
+.header > button:hover {
+    background: #ac6735;
+}

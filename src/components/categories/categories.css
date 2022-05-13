@@ -1,0 +1,17 @@
+.outherCategories:hover{
+    color: #d2691e;
+}
+
+.outherCategories:active{
+    color: aliceblue;
+    background: #d2691e;
+}
+
+.currentCategories {
+    color: aliceblue;
+    background: #d2691e;   
+}
+.currentCategories:hover {
+    color: black;
+
+}
